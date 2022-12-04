@@ -1,0 +1,81 @@
+.create {
+    width: 95%;
+    border-radius: 16px;
+    border: 1px solid #474747;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.create__title {
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+
+.create-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.create-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.create__left {
+    width: 40%;
+}
+
+.create_decription {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+
+.create_decription h3 {
+    width: 45%;
+}
+
+textarea {
+    width: 12rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    background-color: #d6750d;
+    padding: 0.5rem;
+}
+
+.create__right {
+    width: 60%;
+}
+
+.create__files {
+    width: 60%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.create__files h3 {
+    margin-right: 10px;
+}
+
+.create__file {
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.proirity__item {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}

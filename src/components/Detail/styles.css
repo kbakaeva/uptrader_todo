@@ -1,0 +1,35 @@
+.taskdetail {
+    width: 95%;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.taskdetail__head {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskdetail__desc {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+
+.indicator {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+}
+
+.taskdetail__foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+}
